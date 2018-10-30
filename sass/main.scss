@@ -1,0 +1,54 @@
+@import "./header";
+@import "./headline";
+@import "./company";
+@import "./events";
+@import "./block_nav";
+@import "./footer";
+@import "./gallery";
+
+body {
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+    
+    &::after {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.underline {
+    width: 100px;
+    height: 6px;
+    border-radius: 25px;
+    background-color: #a80d26;
+    margin: 35px 0;
+    margin-left: 15px;
+    
+    &_wrap {
+        width: 100%;
+    }
+}
+
+
+.main_button {
+    background-color: #fbc554;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 200px;
+    height: 47px;
+    text-align: center;
+    line-height: 46px;
+    margin-bottom: 100px;
+    font-family: Intro;
+    a {
+        color: #000;
+    }
+}

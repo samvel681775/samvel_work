@@ -1,0 +1,30 @@
+@font-face {
+font-family: 'Orpheus';
+    src: url('Orpheus Bold.otf') format('openType');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+font-family: 'Intro';
+    src: url('Intro-Bold-Caps.otf') format('openType');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+font-family: 'IntroHeadR';
+    src: url('IntroHeadR-Base.otf') format('openType');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+font-family: 'Myriad';
+    src: url('myriad_pro.otf') format('openType');
+    font-weight: 300;
+    font-style: normal;
+}
+
+

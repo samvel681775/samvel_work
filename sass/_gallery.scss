@@ -1,0 +1,33 @@
+.headline {
+    margin: auto;
+    position: relative;
+}
+
+.headline_height {
+    min-height: 510px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn_wrap {
+    position: absolute; 
+    bottom: 0;
+    transition: 0.8s ease;
+}   
+
+.fadee {
+    -webkit-animation-name :fadee;
+    -webkit-animation-duration:1.5s;
+    animation-name: fadee;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadee {
+    from{opacity: .4}
+    to{opacity: 1}
+}
+
+@keyframes fadee {
+    from{opacity: .4} 
+to{opacity: 1}
+}
